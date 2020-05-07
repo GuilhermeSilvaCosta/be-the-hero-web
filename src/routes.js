@@ -8,7 +8,7 @@ import Register from './pages/Register';
 
 export default function Routes() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/be-the-hero-web">
             <Switch>
                 <Route exact path="/" component={Logon} />
                 <Route path="/register" component={Register} />
